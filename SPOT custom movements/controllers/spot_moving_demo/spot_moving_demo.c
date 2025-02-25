@@ -119,8 +119,8 @@ int main(int argc, char **argv) {
     motors[i] = wb_robot_get_device(motor_names[i]);
 
   while (true) {
-    stand_up(4.0);
-    sit_down(4.0);
+    stand_up(1.0);
+    sit_down(1.0);
     
   }
 
